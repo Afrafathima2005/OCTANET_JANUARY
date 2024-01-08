@@ -1,0 +1,106 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #343a40;
+background:url(https://th.bing.com/th/id/OIP._DFBbMb5oOnwRzSXrwLg2AHaEK?w=301&h=180&c=7&r=0&o=5&pid=1.7) no-repeat center center/cover;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+section {
+  padding: 500px;
+  text-align: center;
+  margin: 200px;
+  border-color: #007bff;
+  background-color: rgba(236, 194, 217, 0.9);
+  border-radius: 100px;
+  box-shadow: 0 40 10px rgba(0, 0, 0, 0.1);
+padding-bottom:100px;
+margin-bottom:20px;
+}
+.profile-photo {
+  width: 250px; /* Adjust the width of your photo */
+  height: 250px; /* Adjust the height of your photo */
+  border-radius: 100%; /* Makes the photo round */
+  margin-right: 10px; /* Adjust the spacing between the photo and name */
+}
+.container {
+  max-width: 1200px;
+  margin: 60px;
+  padding: 20px;
+}
+
+nav {
+  background-color:  #0c0400;
+  padding: 10px 0;
+color:white;
+}
+
+.logo {
+  color: #e2212b;
+  margin: 0;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.headline {
+  font-size: em;
+  color: #007bff;
+}
+
+.subheadline {
+  font-size: 1.5em;
+  color: #6c757d;
+}
+
+.testimonial {
+  font-style: italic;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea,
+button {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
